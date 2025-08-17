@@ -1,7 +1,8 @@
 'use client'
 import { useState } from 'react'
-import { createClient } from '@/lib/supabase/client'
-import Header from '@/components/Header'
+import { createClient } from '../../lib/supabase/client'
+import Header from '../../components/Header'
+
 
 export default function LoginPage() {
   const supabase = createClient()
