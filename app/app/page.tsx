@@ -1,7 +1,8 @@
 // trigger deploy
 import { redirect } from 'next/navigation'
-import { createClient } from './lib/supabase/server'
-import Header from './components/Header'
+import { createClient } from '../../lib/supabase/server'
+import Header from '../../components/Header'
+
 
 
 export default async function Dashboard() {
