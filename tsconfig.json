@@ -1,5 +1,6 @@
 {
-  "compilerOptions": {
+  "compilerOptions": {"baseUrl": ".",
+"paths": { "@/*": ["./*"] }
     "target": "es2017",
     "lib": [
       "dom",
@@ -31,4 +32,4 @@
   "exclude": [
     "node_modules"
   ]
-}
+}           
